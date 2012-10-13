@@ -3,12 +3,12 @@ clouflare-dyndns
 
 A bash script to do free and powerfull dyndns with cloudflare.
 
-Tune the little script with 
+### Tune the little script with 
  - host
  - email
  - token (from clouflare)
 
-Update you Crontab :
+### Update you Crontab :
 ````script
 #crontab -e
 ...
@@ -16,3 +16,6 @@ Update you Crontab :
 ````
 
 That's it!
+
+### ToDo
+Gemify with whenever...
