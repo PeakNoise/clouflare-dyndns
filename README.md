@@ -9,8 +9,10 @@ Tune the little script with
  - token (from clouflare)
 
 Update you Crontab :
- $crontab -e
- ...
- */10 * * * * /path/to/your/script/ip.sh
+````script
+#crontab -e
+...
+*/10 * * * * /path/to/your/script/ip.sh
+````
 
 That's it!
