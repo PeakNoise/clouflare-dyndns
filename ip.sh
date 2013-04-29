@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#variables
+#Cloudflare variables
 hosts="yourhost.com"
 email="your_name@gmail.com"
 token="CloudFlare_token"
 
 #get the ip 
-IP=`curl -s http://automation.whatismyip.com/n09230945.asp`
+IP=`curl -s http://icanhazip.com/`
 
 echo $IP
 
